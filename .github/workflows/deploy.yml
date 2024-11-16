@@ -3,10 +3,10 @@ name: Deploy Static Website
 on:
     push:
         branches:
-            -main
+            - main
 
 jobs:
-    depoloy:
+    deploy:
         runs-on: ubuntu-latest
 
         steps:
