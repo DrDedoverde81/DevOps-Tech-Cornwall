@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto('http://drdedoverde81.s3-website.eu-west-2.amazonaws.com/');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle(/Document/);
 });
 
 test('get started link', async ({ page }) => {
